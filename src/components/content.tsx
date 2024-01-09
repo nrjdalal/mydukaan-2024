@@ -33,7 +33,7 @@ export const Content = () => {
               </div>
             </div>
           </div>
-          <div className="font-alt flex w-full justify-between rounded-lg bg-[#0E4F82] px-6 py-2 text-sm text-[#F2F2F2]">
+          <div className="font-alt flex w-full items-center justify-between rounded-lg bg-[#0E4F82] px-6 py-2 text-sm text-[#F2F2F2]">
             <p className="lg:hidden">Next Payout</p>
             <p className="hidden lg:block">Next Payout Date</p>
             <p className="font-medium">Today, 04:00PM</p>

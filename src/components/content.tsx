@@ -91,8 +91,8 @@ export const Content = () => {
         <div className="absolute bottom-0 left-3 z-10 h-2/3 w-1.5 bg-white" />
         <div className="absolute bottom-0 right-3 z-10 h-2/3 w-1.5 bg-white" />
         {/* Toolbar */}
-        <div className="mb-3 flex w-full justify-between">
-          <div className="flex w-[248px] items-center gap-2 rounded border border-[#D9D9D9] px-4 py-2.5">
+        <div className="mb-3 flex w-full justify-between gap-2">
+          <div className="flex w-full lg:w-[248px] items-center gap-2 rounded border border-[#D9D9D9] px-4 py-2.5">
             <Icons.SearchMini />
             <p className="font-alt text-sm text-[#999999]">
               Order ID or transaction ID

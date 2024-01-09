@@ -3,7 +3,7 @@ import { Transactions } from './transactions'
 
 export const Content = () => {
   return (
-    <div className="h-full w-screen bg-[#FAFAFA] p-8 lg:w-full">
+    <div className="h-full w-screen bg-[#FAFAFA] p-4 md:p-8 lg:w-full">
       {/* Overview */}
       <div className="mb-6 flex w-full items-center justify-between">
         <h3 className="font-alt text-lg font-medium text-[#1a181e]">

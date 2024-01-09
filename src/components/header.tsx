@@ -14,10 +14,10 @@ export const Header = () => {
       </div>
       <div className="flex h-full w-full items-center gap-2 rounded-md bg-[#F2F2F2] px-4">
         <Icons.Search />
-        <p className="hidden font-alt text-[15px] leading-[22px] text-[#808080] lg:block">
+        <p className="hidden font-alt text-[15px] leading-[22px] text-[#808080] md:block">
           Search features, tutorials, etc.
         </p>
-        <p className="font-alt text-[15px] leading-[22px] text-[#808080] lg:hidden">
+        <p className="font-alt text-[15px] leading-[22px] text-[#808080] md:hidden">
           Search site
         </p>
       </div>

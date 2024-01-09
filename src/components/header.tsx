@@ -16,7 +16,7 @@ export const Header = () => {
           Search features, tutorials, etc.
         </p>
       </div>
-      <div className="flex h-full w-full justify-end gap-3">
+      <div className="hidden h-full w-full justify-end gap-3 xl:flex">
         <div className="flex size-10 items-center justify-center gap-6 rounded-full bg-[#E6E6E6]">
           <Icons.Message />
         </div>

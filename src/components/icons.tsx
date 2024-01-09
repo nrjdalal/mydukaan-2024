@@ -1,5 +1,3 @@
-import { Search } from 'lucide-react'
-
 export const Icons = {
   Analytics: () => (
     <svg

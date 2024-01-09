@@ -2,7 +2,7 @@ import { Icons } from './icons'
 
 export const Header = () => {
   return (
-    <div className="sticky top-0 flex h-16 items-center justify-between gap-4 border-b border-b-[#D9D9D9] bg-white px-8 py-3">
+    <div className="sticky top-0 flex h-16 items-center justify-between gap-8 border-b border-b-[#D9D9D9] bg-white px-8 py-3 xl:gap-4">
       <div className="flex w-full items-center gap-4">
         <h2 className="font-alt text-xl font-medium text-[#1A181E]">Payouts</h2>
         <div className="flex items-center gap-1.5">

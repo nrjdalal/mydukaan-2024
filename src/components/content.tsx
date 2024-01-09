@@ -87,7 +87,9 @@ export const Content = () => {
         </div>
       </div>
       {/* Transactions */}
-      <div className="w-full rounded-lg bg-white p-3 pb-2 shadow-[0px_2px_6px_0px_rgba(26,24,30,0.04)]">
+      <div className="relative w-full rounded-lg bg-white p-3 pb-2 shadow-[0px_2px_6px_0px_rgba(26,24,30,0.04)]">
+        <div className="absolute bottom-0 left-3 z-10 h-2/3 w-1.5 bg-white" />
+        <div className="absolute bottom-0 right-3 z-10 h-2/3 w-1.5 bg-white" />
         {/* Toolbar */}
         <div className="mb-3 flex w-full justify-between">
           <div className="flex w-[248px] items-center gap-2 rounded border border-[#D9D9D9] px-4 py-2.5">

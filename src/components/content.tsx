@@ -91,7 +91,7 @@ export const Content = () => {
         <div className="absolute bottom-0 right-3 z-10 h-2/3 w-1.5 bg-white" />
         {/* Toolbar */}
         <div className="mb-3 flex w-full justify-between gap-2">
-          <div className="flex w-1/2 items-center gap-2 rounded border border-[#D9D9D9] px-4 py-1 lg:w-[248px] lg:py-2.5">
+          <div className="flex w-1/2 items-center gap-2 rounded border border-[#D9D9D9] px-4 py-1 md:w-1/3 lg:w-[248px] lg:py-2.5">
             <Icons.SearchMini />
             <p className="font-alt text-sm text-[#999999] md:hidden">Any ID</p>
             <p className="hidden font-alt text-sm text-[#999999] md:block">

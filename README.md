@@ -8,6 +8,8 @@ Location - Dukaan Bangalore Office - No remote
 - Page is divided into 3 sections - Header, Navbar, and Content (transaction table is imported separately)
 - Comments are added in the code to explain the structure of the page
 
+> Responsive upto 640w x 420h
+
 End result: https://mydukaan-2024.vercel.app
 Github: https://github.com/nrjdalal/mydukaan-2024
 

@@ -7,7 +7,7 @@ const Page = () => {
     <div className="relative grid min-h-dvh grid-cols-[224px_1fr]">
       <Nabvar />
       <div />
-      <div className="flex h-full w-full flex-col">
+      <div className="relative flex h-full w-full flex-col">
         <Header />
         <Content />d
       </div>

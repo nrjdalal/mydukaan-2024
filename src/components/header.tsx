@@ -7,13 +7,18 @@ export const Header = () => {
         <h2 className="font-alt text-xl font-medium text-[#1A181E]">Payouts</h2>
         <div className="flex items-center gap-1.5">
           <Icons.Help />
-          <p className="font-alt text-xs text-[#4D4D4D]">How it works</p>
+          <p className="hidden font-alt text-xs text-[#4D4D4D] md:block">
+            How it works
+          </p>
         </div>
       </div>
       <div className="flex h-full w-full items-center gap-2 rounded-md bg-[#F2F2F2] px-4">
         <Icons.Search />
-        <p className="font-alt text-[15px] leading-[22px] text-[#808080]">
+        <p className="hidden font-alt text-[15px] leading-[22px] text-[#808080] lg:block">
           Search features, tutorials, etc.
+        </p>
+        <p className="font-alt text-[15px] leading-[22px] text-[#808080] lg:hidden">
+          Search site
         </p>
       </div>
       <div className="hidden h-full w-full justify-end gap-3 xl:flex">

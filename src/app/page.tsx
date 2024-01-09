@@ -9,7 +9,7 @@ const Page = () => {
       <div />
       <div className="relative flex h-full w-full flex-col">
         <Header />
-        <Content />d
+        <Content />
       </div>
     </div>
   )

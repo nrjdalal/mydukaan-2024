@@ -49,7 +49,7 @@ export const Content = () => {
             <p className="font-alt text-[32px] font-medium leading-[38px] text-[#1A181E]">
               ₹92,312.20
             </p>
-            <div className="flex items-center">
+            <div className="hidden items-center lg:flex">
               <p className="font-alt font-medium text-[#146EB4] underline">
                 13 orders
               </p>

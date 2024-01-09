@@ -4,11 +4,12 @@ import { Nabvar } from '@/components/navbar'
 
 const Page = () => {
   return (
-    <div className="grid min-h-dvh grid-cols-[224px_1fr]">
+    <div className="relative grid min-h-dvh grid-cols-[224px_1fr]">
       <Nabvar />
+      <div />
       <div className="flex h-full w-full flex-col">
         <Header />
-        <Content />
+        <Content />d
       </div>
     </div>
   )

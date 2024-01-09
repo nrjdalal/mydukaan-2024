@@ -4,7 +4,7 @@ import { Icons } from './icons'
 
 export const Nabvar = () => {
   return (
-    <div className="w-56 bg-[#1E2640] py-4 text-white">
+    <div className="fixed h-screen w-56 bg-[#1E2640] py-4 text-white">
       <div className="flex h-full w-full flex-col items-center gap-4">
         {/* Nav Top */}
         <div className="flex h-full flex-col items-center gap-6">

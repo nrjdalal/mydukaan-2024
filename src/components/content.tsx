@@ -15,7 +15,7 @@ export const Content = () => {
         </div>
       </div>
       {/* Cards */}
-      <div className="mb-8 flex items-start gap-5">
+      <div className="mb-8 grid grid-cols-2 items-start gap-5 xl:grid-cols-3">
         {/* Next Payout */}
         <div className="w-full overflow-hidden rounded-lg bg-[#146EB4]">
           <div className="w-full p-5 text-white">

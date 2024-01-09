@@ -7,7 +7,9 @@ export const Header = () => {
         <h2 className="font-alt text-xl font-medium text-[#1A181E]">Payouts</h2>
         <div className="flex items-center gap-1.5">
           <Icons.Help />
-          <p className="font-alt text-xs text-[#4D4D4D]">How it works</p>
+          <p className="hidden font-alt text-xs text-[#4D4D4D] md:block">
+            How it works
+          </p>
         </div>
       </div>
       <div className="flex h-full w-full items-center gap-2 rounded-md bg-[#F2F2F2] px-4">

@@ -15,7 +15,7 @@ export const Content = () => {
         </div>
       </div>
       {/* Cards */}
-      <div className="mb-8 grid grid-cols-2 items-start gap-5 xl:grid-cols-3">
+      <div className="mb-8 grid items-start gap-5 md:grid-cols-2 xl:grid-cols-3">
         {/* Next Payout */}
         <div className="w-full overflow-hidden rounded-lg bg-[#146EB4]">
           <div className="w-full p-5 text-white">
@@ -27,15 +27,14 @@ export const Content = () => {
               <p className="font-alt text-[32px] font-medium leading-[38px]">
                 ₹2,312.23
               </p>
-              <div className="hidden items-center lg:flex">
+              <div className="flex items-center">
                 <p className="font-alt font-medium underline">23 orders</p>
                 <Icons.Right />
               </div>
             </div>
           </div>
-          <div className="font-alt flex w-full items-center justify-between rounded-lg bg-[#0E4F82] px-6 py-2 text-sm text-[#F2F2F2]">
-            <p className="lg:hidden">Next Payout</p>
-            <p className="hidden lg:block">Next Payout Date</p>
+          <div className="flex w-full items-center justify-between rounded-lg bg-[#0E4F82] px-6 py-2 font-alt text-sm text-[#F2F2F2]">
+            <p>Next Payout Date</p>
             <p className="font-medium">Today, 04:00PM</p>
           </div>
         </div>
@@ -50,7 +49,7 @@ export const Content = () => {
             <p className="font-alt text-[32px] font-medium leading-[38px] text-[#1A181E]">
               ₹92,312.20
             </p>
-            <div className="hidden items-center lg:flex">
+            <div className="flex items-center">
               <p className="font-alt font-medium text-[#146EB4] underline">
                 13 orders
               </p>
@@ -94,7 +93,8 @@ export const Content = () => {
         <div className="mb-3 flex w-full justify-between">
           <div className="flex w-[248px] items-center gap-2 rounded border border-[#D9D9D9] px-4 py-2.5">
             <Icons.SearchMini />
-            <p className="font-alt text-sm text-[#999999]">
+            <p className="font-alt text-sm text-[#999999] md:hidden">Any ID</p>
+            <p className="hidden font-alt text-sm text-[#999999] md:block">
               Order ID or transaction ID
             </p>
           </div>

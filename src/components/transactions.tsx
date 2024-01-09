@@ -57,13 +57,17 @@ export function Transactions() {
     <Table>
       <TableHeader>
         <TableRow className="font-alt border-none py-2.5 text-sm font-medium text-[#4D4D4D]">
-          <TableHead className="w-1/5 rounded-l bg-[#F2F2F2]">
+          <TableHead className="w-max rounded-l bg-[#F2F2F2] lg:w-1/5">
             Order ID
           </TableHead>
-          <TableHead className="w-1/5 bg-[#F2F2F2]">Status</TableHead>
-          <TableHead className="w-1/5 bg-[#F2F2F2]">Transaction ID</TableHead>
-          <TableHead className="w-1/5 bg-[#F2F2F2]">Refund Date</TableHead>
-          <TableHead className="w-[10%]] rounded-r bg-[#F2F2F2] text-right">
+          <TableHead className="w-max bg-[#F2F2F2] lg:w-1/5">Status</TableHead>
+          <TableHead className="w-max bg-[#F2F2F2] lg:w-1/5">
+            Transaction ID
+          </TableHead>
+          <TableHead className="w-max bg-[#F2F2F2] lg:w-1/6">
+            Refund Date
+          </TableHead>
+          <TableHead className="w-max rounded-r bg-[#F2F2F2] text-right lg:w-1/6">
             Order Amount
           </TableHead>
         </TableRow>

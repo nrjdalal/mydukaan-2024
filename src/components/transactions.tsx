@@ -75,7 +75,7 @@ export function Transactions() {
               {invoice.id}
             </TableCell>
             <TableCell>
-              <div className="flex items-center gap-1.5">
+              <div className="mb-0.5 flex items-center gap-1.5">
                 {invoice.status === 'Successful' ? (
                   <div className="size-2.5 rounded-full bg-[#17B31B]" />
                 ) : (

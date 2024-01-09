@@ -27,14 +27,15 @@ export const Content = () => {
               <p className="font-alt text-[32px] font-medium leading-[38px]">
                 ₹2,312.23
               </p>
-              <div className="flex items-center">
+              <div className="hidden items-center lg:flex">
                 <p className="font-alt font-medium underline">23 orders</p>
                 <Icons.Right />
               </div>
             </div>
           </div>
           <div className="font-alt flex w-full justify-between rounded-lg bg-[#0E4F82] px-6 py-2 text-sm text-[#F2F2F2]">
-            <p>Next Payout Date</p>
+            <p className="lg:hidden">Next Payout</p>
+            <p className="hidden lg:block">Next Payout Date</p>
             <p className="font-medium">Today, 04:00PM</p>
           </div>
         </div>

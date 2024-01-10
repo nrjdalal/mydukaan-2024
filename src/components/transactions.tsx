@@ -96,7 +96,8 @@ export function Transactions() {
               {invoice.tid}
             </TableCell>
             <TableCell className="font-alt text-[#4D4D4D]">
-              {invoice.date}
+              <p>{invoice.date.replace('2023', '23')}</p>
+              <p className="hidden md:block">{invoice.date}</p>
             </TableCell>
             <TableCell className="text-right text-[#1A181E]">
               {invoice.amount}

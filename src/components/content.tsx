@@ -91,9 +91,7 @@ export const Content = () => {
         </div>
       </div>
       {/* Transactions */}
-      <div className="relative w-full rounded-lg bg-white p-3 pb-2 shadow-[0px_2px_6px_0px_rgba(26,24,30,0.04)]">
-        <div className="absolute bottom-0 left-3 z-10 h-2/3 w-1.5 bg-white" />
-        <div className="absolute bottom-0 right-3 z-10 h-2/3 w-1.5 bg-white" />
+      <div className="w-full rounded-lg bg-white p-3 pb-2 shadow-[0px_2px_6px_0px_rgba(26,24,30,0.04)]">
         {/* Toolbar */}
         <div className="mb-3 flex w-full justify-between gap-2">
           <div className="flex w-1/2 items-center gap-2 rounded border border-[#D9D9D9] px-4 py-1 md:w-1/3 lg:w-[248px] lg:py-2.5">
@@ -114,7 +112,11 @@ export const Content = () => {
           </div>
         </div>
         {/* Transactions Items */}
-        <Transactions />
+        <div className="relative">
+          <div className="absolute bottom-0 left-0 z-10 h-[calc(100%-3rem)] w-1.5 bg-white" />
+          <Transactions />
+          <div className="absolute bottom-0 right-0 z-10 h-[calc(100%-3rem)] w-1.5 bg-white" />
+        </div>
       </div>
     </div>
   )

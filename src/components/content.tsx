@@ -28,7 +28,9 @@ export const Content = () => {
                 ₹2,312.23
               </p>
               <div className="flex h-9 items-center">
-                <p className="font-alt font-medium underline">23 orders</p>
+                <p className="font-alt font-medium underline decoration-1 underline-offset-2">
+                  23 orders
+                </p>
                 <div className="flex h-full items-center">
                   <Icons.Right />
                 </div>
@@ -52,7 +54,7 @@ export const Content = () => {
               ₹92,312.20
             </p>
             <div className="flex h-9 items-center">
-              <p className="font-alt font-medium text-[#146EB4] underline">
+              <p className="font-alt font-medium text-[#146EB4] underline decoration-1 underline-offset-2">
                 13 orders
               </p>
               <div className="flex h-full items-center">

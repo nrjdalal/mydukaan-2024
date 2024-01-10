@@ -73,8 +73,8 @@ export function Transactions() {
             <p className="hidden lg:block">Refund Date</p>
           </TableHead>
           <TableHead className="w-max rounded-r bg-[#F2F2F2] text-right md:w-1/6 xl:w-[10%]">
-            <p className="lg:hidden">Amount</p>
-            <p className="hidden lg:block">Order Amount</p>
+            <p className="md:hidden">Amount</p>
+            <p className="hidden md:block">Order Amount</p>
           </TableHead>
         </TableRow>
       </TableHeader>

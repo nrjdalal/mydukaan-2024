@@ -58,15 +58,15 @@ export function Transactions() {
       <TableHeader>
         <TableRow className="border-none py-2.5 font-alt text-sm font-medium text-[#4D4D4D]">
           <TableHead className="w-max rounded-l bg-[#F2F2F2] lg:w-1/6 xl:w-1/5">
-            <p className="lg:hidden">ID</p>
-            <p className="hidden lg:block">Order ID</p>
+            <p className="sm:hidden">ID</p>
+            <p className="hidden sm:block">Order ID</p>
           </TableHead>
           <TableHead className="w-max bg-[#F2F2F2] lg:w-1/6 xl:w-1/5">
             Status
           </TableHead>
           <TableHead className="w-max bg-[#F2F2F2] lg:w-1/6 xl:w-1/5">
-            <p className="lg:hidden">Tx. ID</p>
-            <p className="hidden lg:block">Transaction ID</p>
+            <p className="sm:hidden">Tx. ID</p>
+            <p className="hidden sm:block">Transaction ID</p>
           </TableHead>
           <TableHead className="w-max bg-[#F2F2F2] lg:w-1/5">
             <p className="lg:hidden">Refunded</p>

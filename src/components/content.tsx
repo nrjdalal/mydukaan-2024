@@ -27,9 +27,11 @@ export const Content = () => {
               <p className="font-alt text-[32px] font-medium leading-[38px]">
                 ₹2,312.23
               </p>
-              <div className="flex items-center">
+              <div className="flex h-9 items-center">
                 <p className="font-alt font-medium underline">23 orders</p>
-                <Icons.Right />
+                <div className="flex h-full items-center">
+                  <Icons.Right />
+                </div>
               </div>
             </div>
           </div>
@@ -49,14 +51,17 @@ export const Content = () => {
             <p className="font-alt text-[32px] font-medium leading-[38px] text-[#1A181E]">
               ₹92,312.20
             </p>
-            <div className="flex items-center">
+            <div className="flex h-9 items-center">
               <p className="font-alt font-medium text-[#146EB4] underline">
                 13 orders
               </p>
-              <Icons.RightOnWhite />
+              <div className="flex h-full items-center">
+                <Icons.RightOnWhite />
+              </div>
             </div>
           </div>
         </div>
+
         {/* Amount Processing */}
         <div className="w-full rounded-lg bg-white p-5 shadow-[0px_2px_6px_0px_rgba(26,24,30,0.04)]">
           <div className="mb-4 flex items-center gap-2">

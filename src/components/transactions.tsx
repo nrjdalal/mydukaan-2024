@@ -57,12 +57,14 @@ export function Transactions() {
     <Table>
       <TableHeader>
         <TableRow className="border-none py-2.5 font-alt text-sm font-medium text-[#4D4D4D]">
-          <TableHead className="w-max rounded-l bg-[#F2F2F2] lg:w-1/6">
+          <TableHead className="w-max rounded-l bg-[#F2F2F2] lg:w-1/6 xl:w-1/5">
             <p className="lg:hidden">ID</p>
             <p className="hidden lg:block">Order ID</p>
           </TableHead>
-          <TableHead className="w-max bg-[#F2F2F2] lg:w-1/5">Status</TableHead>
-          <TableHead className="w-max bg-[#F2F2F2] lg:w-1/5">
+          <TableHead className="w-max bg-[#F2F2F2] lg:w-1/6 xl:w-1/5">
+            Status
+          </TableHead>
+          <TableHead className="w-max bg-[#F2F2F2] lg:w-1/6 xl:w-1/5">
             <p className="lg:hidden">Tx. ID</p>
             <p className="hidden lg:block">Transaction ID</p>
           </TableHead>
@@ -96,12 +98,12 @@ export function Transactions() {
               {invoice.tid}
             </TableCell>
             <TableCell className="font-alt text-[#4D4D4D]">
-              <p className="lg:hidden">
+              <p className="md:hidden">
                 {invoice.date.replace('2023', '23').split(', ')[0]}
                 <br />
                 {invoice.date.replace('2023', '23').split(', ')[1]}
               </p>
-              <p className="hidden lg:block">{invoice.date}</p>
+              <p className="hidden md:block">{invoice.date}</p>
             </TableCell>
             <TableCell className="text-right text-[#1A181E]">
               {invoice.amount}
